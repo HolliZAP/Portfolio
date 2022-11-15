@@ -101,8 +101,8 @@ text-align: center;
 }
 
 .about-me__picture--mask{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.16);
@@ -113,8 +113,8 @@ text-align: center;
     width: 100%;
 
     /* improving own picture*/
-    transform: scale(1.5);
-    padding-top: 8px;
+    transform: scale(2.5);
+    padding-top: 25px;
 }
 
 .about-me__info--para{
@@ -143,3 +143,33 @@ text-align: center;
  width: 100%;
 }
 
+/*    Language   */
+
+.language__img{
+    height: 200px;
+    width: 200px;
+}
+
+.language__img-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+
+.section__titels{
+    font-size: 36px;
+    margin-top: 20px;
+    color: #6036b1;
+}
+
+.language__word{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+.language__img-word{
+    font-size: 20px;
+    padding: 12px;
+    font-weight: bold;
+}
