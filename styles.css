@@ -1,11 +1,12 @@
-@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+@import url(<link rel="prtioneconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">);
 
 *{font-family: 'Roboto', sans-serif;
 padding: 0%;
 margin: 0%;
-box-sizing: border-box;}
+box-sizing: border-box;
+}
 
 html{
     scroll-behavior: smooth;
@@ -221,6 +222,7 @@ text-align: center;
  animation: fade-in 1200ms 800ms backwards;
 }
 
+
 @keyframes fade-in{
    0%{ opacity: 0;}
    100%{
@@ -274,6 +276,8 @@ text-align: center;
     transform: scale(1);
     opacity: 1;
 }
+
+
 
 
 /*   Projects    */
